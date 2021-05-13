@@ -23,7 +23,7 @@ public class StreamsMappingExample {
                 .stream()
                 .collect(mapping(Student::getName,toList())); // this avoids the additional map intermediate operation.
 
-        System.out.println("namesList : " + namesList);
+        System.out.println("namesList elements : " + namesList);
 
 
     }
