@@ -5,6 +5,7 @@ import com.learnJava.data.StudentDataBase;
 
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.*;
 
@@ -23,6 +24,7 @@ public class StreamsMappingExample {
                 .collect(mapping(Student::getName,toList())); // this avoids the additional map intermediate operation.
 
         System.out.println("namesList : " + namesList);
+
 
     }
 
