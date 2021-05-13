@@ -67,6 +67,10 @@ public class FP04CustomClass {
 				new Course("Azure", "Cloud", 99, 21000), new Course("Docker", "Cloud", 92, 20000),
 				new Course("Kubernetes", "Cloud", 91, 20000));
 
+
+
+
+
 		// allMatch, noneMatch, anyMatch
 		Predicate<Course> reviewScoreGreaterThan95Predicate 
 			= course -> course.getReviewScore() > 95;
