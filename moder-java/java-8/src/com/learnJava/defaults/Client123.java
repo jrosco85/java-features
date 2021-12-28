@@ -12,7 +12,8 @@ public class Client123 implements Interface1,Interface2,Interface3 {
         client123.methodA(); // resolves to child Interface Implementation
         client123.methodB();
     
-    
+        client123.methodC();
+
         client123.methodC();
 
 
